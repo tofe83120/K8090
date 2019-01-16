@@ -1,3 +1,14 @@
+Based onto the work of Christophe Garcia
+Works with Ubuntu 16.04
+
+Features:
+  *Activate / deactivate all relays
+  *Activate / deactivate relays one by one
+  *Set a delay on relays one by one
+  *Read all relays status
+
+
+
 Install instruction :
 
 1. install libusb-dev (sudo apt-get install libusb-dev)
