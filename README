@@ -17,3 +17,18 @@ Install instruction :
 4. run "make clean"
 5. run "make all"
 6. run "sudo make install"
+
+
+Usage:
+ ./k8090cmd --help
+
+
+ ./k8090cmd v1.0
+
+ Syntax : ./k8090cmd -c <command> -r <number> [-d <number>]
+	 -c <command>   Set command (on, off, timer, status)
+	 -r <number>    Set relay number (0-7)
+	 -d <number>    Set timer delay in seconds (1, 65536)
+
+ Examples : ./k8090cmd -c on -r 3
+            ./k8090cmd -c timer -r 3 -d 3600
