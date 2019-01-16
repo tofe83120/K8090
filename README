@@ -1,0 +1,8 @@
+Install instruction :
+
+1. install libusb-dev (sudo apt-get install libusb-dev)
+2. unzip the K8090 library source bundle
+3. move into source directory
+4. run "make clean"
+5. run "make all"
+6. run "sudo make install"
